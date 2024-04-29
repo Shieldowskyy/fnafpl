@@ -18,7 +18,7 @@
 
 5. Plik powinien znajdować się w katalogu w którym wypakowaliśmy FModela z **zachowaną strukturą plików która potem nam się przyda!**
 
-# Eksport plików do formatu .po
+# #2 Eksport plików do formatu .po
 Aby wyeksportować plik do formatu obsługiwanego przez program PoEdit, należy użyć dołączonego narzedzia UnrealLocres. Uruchamiany powershell i robimy tak:
 
 1. Przechodzimy do lokalizacji z plikami .locres oraz programem UnrealLocres\
@@ -28,13 +28,14 @@ Aby wyeksportować plik do formatu obsługiwanego przez program PoEdit, należy 
 
 3. W katalogu powinien się teraz znajdować plik DLC.po który będzie można normalnie edytować używając programu Poedit!
 
-# Edycja plików
+# #3 Edycja plików
 Aby edytować zawarte pliki źródłowe należy użyć **programu do edycji plików .po**
 Przykładowym programem który ja użyłem był program **Poedit** dostępny za darmo na tej stronie: https://poedit.net/
 <br />W prosty sposób otworzy on nam plik i pozwoli na jego łatwą edycję oraz zapobiegnie popełnieniu typowych błędów składniowych.
 **Nie ma potrzeby kupowania wersji Pro** ponieważ do tłumaczenia maszynowego wystarczy przeklejać ręcznie frazy do Tłumacza Google/Deepl.
 Jeżeli chesz tworzyć spolszczenie wspólnie z innymi, lepszym wyjściem może się okazać użycie [Platformy Crowdin](https://crowdin.com/project/spolszczenie-fnaf-sb/pl).\
 To jednak wychodzi poza ramy poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
+
 
 # Obsługa Polskich Znaków
 FNAF SB oraz FNAF HW używają domyślnej czcionki z Unreal Engine która obsługuje Unicode, co oznacza że wspiera ona również polskie znaki!
