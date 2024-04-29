@@ -62,9 +62,10 @@ Przykładowym programem którego początkowo używaliśmy był program **Poedit*
 > Ma wbudowane podpowiedzi i autokorektę tłumaczeń, oraz rozsądny darmowy limit ilości słów.\
 > Jego konfiguracja wychodzi poza ramy tego poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
 
-Nie muszę raczej tłumaczyć procesu samego... Cóż, tłumaczenia xD
+Nie muszę raczej tłumaczyć procesu samego... Cóż, tłumaczenia xD\
+Pamiętaj aby testować najpierw np. teksty z menu głównego. Oszczędzi to czas na sprawdzanie czy import działa.
 
-Jedyną radą jest to aby nie tłumaczyć tego, czego w grze nie widać lub co jest takie same po polsku, jak w oryginale np. liczby lub nazwy/skróty (RTX, HDR itp.)
+Poza tym - jedyną radą jest to aby nie tłumaczyć tego, czego w grze nie widać lub co jest takie same po polsku, jak w oryginale np. liczby lub nazwy/skróty (RTX, HDR itp.)
 
 # #4 Pakowanie plików :package:
 Po ukończeniu spolszczenia należy przekonwertować plik z powrotem do formatu **.locres**, a następnie spakować do formatu **.pak**.
