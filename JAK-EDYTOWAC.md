@@ -50,7 +50,7 @@ Nastepnie w PowerShell wykonujemy komendę:
 "./UnrealLocres import Game.locres Game.po" \
 (zakładając że nasz plik ma nazwę roboczą Game)
 
-Program powinien teraz utworzyć nam plik **Game.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!\
+Program powinien teraz utworzyć nam plik **Game.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!
 
 ### 4.2 Przygotowanie do pakowania
 1. Wchodzimy do folderu FModela w którym bazowo exportowaliśmy nasz plik .locres!
