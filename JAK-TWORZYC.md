@@ -91,7 +91,7 @@ Program powinien teraz utworzyć nam plik **Game.locres.new** który jest orygin
 3. Wyjdź do folderu Exports i obok folderu z nazwą gry, utwórz nowy folder o dowolnej nazwie
 4. Wrzuć tam folder z nazwą gry
 
-### 4.3 Pakowanie i testowanie
+### 4.3 Pakowanie i testowanie :test_tube:
 1. W drugim oknie otwórz folder **Narzedzia** z repozytorium, i wejdź do folderu UnrealPak
 2. Przeciągnij folder o dowolnej nazwie, na plik **"_UnrealPak-With-Compression.bat"** w folderze narzędzia
 3. Powinien na chwilę otworzyć się wiersz polecenia, a twoim oczom ukazać się gotowy plik obok folderu Export.
