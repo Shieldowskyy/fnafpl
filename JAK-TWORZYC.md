@@ -1,4 +1,4 @@
-# Jak edytować spolszczenie? :memo:
+# Jak tworzyć spolszczenia do gier na Unreal Engine? :memo:
 Ten poradnik pokazuje kompletny proces tworzenia pliku spolszczenia, od eksportu pliku -> przez tłumaczenie -> po ponowny import do plików gry.\
 Starałem się napisać go jak najprościej, jednakże to jeden z pierwszych takich tekstów jakie przyszło mi napisać - więc miej to na uwadze.\
 Wszystkie błędy zgłaszaj w zakładce Issues lub do mnie na dc: @shieldziak
@@ -61,6 +61,10 @@ Przykładowym programem którego początkowo używaliśmy był program **Poedit*
 > Jeżeli chesz tworzyć spolszczenie wspólnie z innymi, lepszym wyjściem może się okazać użycie [Platformy Crowdin](https://crowdin.com/project/spolszczenie-fnaf-sb/pl).\
 > Ma wbudowane podpowiedzi i autokorektę tłumaczeń, oraz rozsądny darmowy limit ilości słów.\
 > Jego konfiguracja wychodzi poza ramy tego poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
+
+Nie muszę raczej tłumaczyć procesu samego... Cóż, tłumaczenia xD
+
+Jedyną radą jest to aby nie tłumaczyć tego, czego w grze nie widać lub co jest takie same po polsku, jak w oryginale np. liczby lub nazwy/skróty (RTX, HDR itp.)
 
 # #4 Pakowanie plików :package:
 Po ukończeniu spolszczenia należy przekonwertować plik z powrotem do formatu **.locres**, a następnie spakować do formatu **.pak**.
