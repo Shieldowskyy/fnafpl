@@ -13,6 +13,6 @@ Witam w nowym repozytorium projektu FNaF-PL! Znajdziesz tutaj wszystkie spolszcz
 
 # Spis treści
 
-### [Jak edytować spolszczenie?](JAK-TWORZYC.md)
+### [Jak tworzyć/edytować spolszczenia dla gier na silniku Unreal Engine 4/5?](JAK-TWORZYC.md)
 Dokumentacja narzędzia UnrealLocres [TODO]
 
