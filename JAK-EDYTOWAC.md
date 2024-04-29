@@ -1,3 +1,10 @@
+
+## Spis treści:
+[#1 Eksport stringów z plików gry.](JAK-EDYTOWAC.md#1-eksport-stringów-z-plików-gry)\
+[#2 Eksport plików do formatu .po](JAK-EDYTOWAC.md#2-eksport-plików-do-formatu-po)\
+[#3 Edycja plików](JAK-EDYTOWAC.md#3-edycja-plik%C3%B3w)\
+[#4 Pakowanie plików](JAK-EDYTOWAC.md#4-pakowanie-plik%C3%B3w)
+
 # #1 Eksport stringów z plików gry.
 
 1. Pobieramy narzędzie Fmodel i wybieramy w nim ścieżkę do plików gry (do folderu z głównym plikiem .exe)
