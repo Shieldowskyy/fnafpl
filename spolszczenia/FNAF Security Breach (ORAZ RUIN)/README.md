@@ -15,6 +15,8 @@ Jeżeli to nie pomaga to napisz do mnie na discord. @shieldziak
 
 Jeżeli problem dotyczy spolszczenia (np. brakujące linie tekstu, błędy w grze), to zgłoś to w [zakładce Issues](https://github.com/Shieldowskyy/fnafpl/issues)!
 
+Możesz również spróbować samemu poprawić błędy na [stronie Crowdin](https://crowdin.com/project/spolszczenie-fnaf-sb/pl), jednak pamiętaj aby po wykonaniu tego poinformować nas tworząc zgłoszenie w [zakładce Issues](https://github.com/Shieldowskyy/fnafpl/issues), abyśmy mogli je przetestować i wydać aktualizację!
+
 ## Zrzuty ekranu
 
 ![image](https://user-images.githubusercontent.com/32707076/236043351-5fac1cba-0948-4bc8-947d-1961461a4012.png)
