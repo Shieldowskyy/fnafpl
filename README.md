@@ -9,7 +9,6 @@ Witam w nowym repozytorium projektu FNaF-PL! Znajdziesz tutaj wszystkie spolszcz
 
 # Spis treści
 
-Jak zainstalować spolszczenie? [TODO]\
-Jak edytować spolszczenie? [TODO]\
+### [Jak edytować spolszczenie?](JAK-EDYTOWAC.md)
 Dokumentacja narzędzia UnrealLocres [TODO]
 
