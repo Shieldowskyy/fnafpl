@@ -1,5 +1,5 @@
 # Spolszczenie do FNAF: SB (ORAZ RUIN)
-
+[![Crowdin](https://badges.crowdin.net/spolszczenie-fnaf-sb/localized.svg)](https://crowdin.com/project/spolszczenie-fnaf-sb)
 ## Instalacja spolszczenia:
 
 Jeżeli posiadasz grę na steamie:
