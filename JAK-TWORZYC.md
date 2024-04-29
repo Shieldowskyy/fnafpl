@@ -5,10 +5,10 @@ Wszystkie błędy zgłaszaj w zakładce Issues lub do mnie na dc: @shieldziak
 
 
 ## Spis treści:
-[#1 Eksport stringów z plików gry.](JAK-TWORZYC.md#1-eksport-stringów-z-plików-gry)\
-[#2 Eksport plików do formatu .po](JAK-TWORZYC.md#2-eksport-plików-do-formatu-po)\
-[#3 Edycja plików](JAK-TWORZYC.md#3-edycja-plik%C3%B3w)\
-[#4 Pakowanie plików](JAK-TWORZYC.md#4-pakowanie-plik%C3%B3w)
+[#1 Eksport stringów z plików gry.](JAK-TWORZYC.md#1-eksport-string%C3%B3w-z-plik%C3%B3w-gry-dvd)\
+[#2 Eksport plików do formatu .po](JAK-TWORZYC.md#2-eksport-plik%C3%B3w-do-formatu-pot-outbox_tray)\
+[#3 Edycja plików](JAK-TWORZYC.md#3-edycja-plik%C3%B3w-writing_hand)\
+[#4 Pakowanie plików](JAK-TWORZYC.md#4-pakowanie-plik%C3%B3w-package)
 
 # #1 Eksport stringów z plików gry :dvd:
 Aby móc edytować tekst w grze, należy wpierw wyeksportować go do formatu wspieranego przez narzędzia do edycji.\
