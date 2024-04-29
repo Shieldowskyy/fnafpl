@@ -73,7 +73,7 @@ Przygotuj folder roboczy, wrzucając do niego program **UnrealLocres.exe**, dost
 > [!IMPORTANT]
 > Stwórz go w miejscu neutralnym np. na pulpicie albo w folderze pobrane. Ważne żeby nie kolidował z plikami gry!
 
-### 4.1 Import do formatu .locres
+### 4.1 Import do formatu .locres :inbox_tray:
 Do folderu roboczego wrzucamy:
 - Oryginalny plik .locres z plików gry
 - Plik spolszczenia **z końcówką .po**!
@@ -84,7 +84,7 @@ Nastepnie w PowerShell wykonujemy komendę:\
 
 Program powinien teraz utworzyć nam plik **Game.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!
 
-### 4.2 Przygotowanie do pakowania
+### 4.2 Przygotowanie do pakowania :ballot_box:
 1. Wchodzimy do folderu FModela w którym bazowo exportowaliśmy nasz plik .locres!
 2. Ważne jest teraz aby podmienić plik Game.locres w folderze **Localization** na końcu ścieżki, na ten który przed chwilą przekonwertowaliśmy.\
  Zachowaj jego oryginalną nazwę (usuwając .new z końcówki) i nie zmieniaj nic z folderami!
