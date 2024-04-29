@@ -25,29 +25,36 @@
 
 5. Plik powinien znajdować się w katalogu w którym wypakowaliśmy FModela z **zachowaną strukturą plików która potem nam się przyda!**
 
-# #2 Eksport plików do formatu .po
+# #2 Eksport plików do formatu .pot :outbox_tray:
+Program którego będziemy używać do tłumaczenia plików nosi nazwę PoEdit. Obsługuje on pliki **.po** oraz **.pot!** Ważne żeby wiedzieć co one oznaczają.
+
+**.pot** - plik z szablonem tłumaczenia, zawierający tylko oryginalny tekst w języku angielskim. Jego właśnie uzyskujemy!\
+**.po** - plik z szablonem ORAZ tłumaczeniem zawierający oryginalne dane oraz nasze zmienione ciągi tekstu. On przyda nam się na końcu!
+
 Aby wyeksportować plik do formatu obsługiwanego przez program PoEdit, należy użyć dołączonego narzedzia UnrealLocres. Uruchamiany powershell i robimy tak:
 
 1. Przechodzimy do lokalizacji z plikami .locres oraz programem UnrealLocres\
  a nastepnie klikamy **Shift + Prawy przycisk myszy** i wybieramy "Otwórz tutaj okno programu PowerShell"
 
-2. Następnie narzędziem UnrealLocres konwertujemy plik z formatu .locres do formatu .po co zrobimy używając komendy ```./UnrealLocres.exe export DLC.locres -f pot```
+2. Następnie narzędziem UnrealLocres konwertujemy plik z formatu .locres do formatu .pot co zrobimy używając komendy ```./UnrealLocres.exe export DLC.locres -f pot```
 
-3. W katalogu powinien się teraz znajdować plik DLC.po który będzie można normalnie edytować używając programu Poedit!
+3. W katalogu powinien się teraz znajdować plik DLC.pot który będzie można normalnie edytować używając programu Poedit!
 
-# #3 Edycja plików
-Aby edytować zawarte pliki źródłowe należy użyć **programu do edycji plików .po**
-Przykładowym programem który ja użyłem był program **Poedit** dostępny za darmo na tej stronie: https://poedit.net/
+# #3 Edycja plików :writing_hand:
+Aby edytować zawarte pliki źródłowe należy użyć **programu do edycji plików .pot**
+Przykładowym programem którego początkowo używaliśby był program **Poedit**. Jest on dostępny za darmo na tej stronie: https://poedit.net/
 <br />W prosty sposób otworzy on nam plik i pozwoli na jego łatwą edycję oraz zapobiegnie popełnieniu typowych błędów składniowych.
 **Nie ma potrzeby kupowania wersji Pro** ponieważ do tłumaczenia maszynowego wystarczy przeklejać ręcznie frazy do Tłumacza Google/Deepl.
-Jeżeli chesz tworzyć spolszczenie wspólnie z innymi, lepszym wyjściem może się okazać użycie [Platformy Crowdin](https://crowdin.com/project/spolszczenie-fnaf-sb/pl).\
-To jednak wychodzi poza ramy poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
+> [!TIP]
+> Jeżeli chesz tworzyć spolszczenie wspólnie z innymi, lepszym wyjściem może się okazać użycie [Platformy Crowdin](https://crowdin.com/project/spolszczenie-fnaf-sb/pl).\
+> To jednak wychodzi poza ramy poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
 
-# #4 Pakowanie plików
-Po ukończeniu spolszczenia należy spakować plik z powrotem do formatu .locres, a następnie do formatu .pak.
-### 4.0 Folder roboczy
-Przygotuj folder roboczy, wrzucając do niego program UnrealLocres.exe, dostępny do pobrania z folderu [**Narzedzia**](Narzedzia)\
-Stwórz go w miejscu neutralnym np. na pulpicie albo w folderze pobrane. Ważne żeby nie kolidował z plikami gry!
+# #4 Pakowanie plików :package:
+Po ukończeniu spolszczenia należy przekonwertować plik z powrotem do formatu **.locres**, a następnie spakować do formatu **.pak**.
+### 4.0 Folder roboczy :file_folder:
+Przygotuj folder roboczy, wrzucając do niego program **UnrealLocres.exe**, dostępny do pobrania z folderu [**Narzedzia**](Narzedzia).
+> [!IMPORTANT]
+> Stwórz go w miejscu neutralnym np. na pulpicie albo w folderze pobrane. Ważne żeby nie kolidował z plikami gry!
 
 ### 4.1 Import do formatu .locres
 Do folderu roboczego wrzucamy:
