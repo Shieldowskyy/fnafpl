@@ -16,7 +16,7 @@ __Tłumaczenie kompletne ale nieprzetestowane i może zawierać błędy__
 Dokumentacja narzędzia UnrealLocres [TODO]
 
 # Kontakt
-Możesz uzyskać pomoc na naszym YouTubowym serwerze discord:
-![Discord Banner 2](https://discordapp.com/api/guilds/1022171140883484722/widget.png?style=banner2)
-Lub pisząc do mnie na PW:
+Możesz uzyskać pomoc na naszym serwerze discord:\
+![Discord Banner 2](https://discordapp.com/api/guilds/1022171140883484722/widget.png?style=banner3)\
+Lub pisząc do mnie na PW:\
 DC: @shieldziak
