@@ -54,7 +54,7 @@ Do folderu roboczego wrzucamy:
 - Plik spolszczenia **z końcówką .po**!
 
 Nastepnie w PowerShell wykonujemy komendę:\
-**"./UnrealLocres import Game.locres Game.po --format po"** \
+```./UnrealLocres import Game.locres Game.po --format po``` \
 (zakładając że nasz plik ma nazwę roboczą Game)
 
 Program powinien teraz utworzyć nam plik **Game.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!
