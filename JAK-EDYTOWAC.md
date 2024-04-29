@@ -61,7 +61,8 @@ Program powinien teraz utworzyć nam plik **Game.locres.new** który jest orygin
 
 ### 4.2 Przygotowanie do pakowania
 1. Wchodzimy do folderu FModela w którym bazowo exportowaliśmy nasz plik .locres!
-2. Ważne jest teraz aby podmienić plik Game.locres w folderze **Localization** na końcu ścieżki, na ten który przed chwilą przekonwertowaliśmy, zachowując jego oryginalną nazwę (usuwając .new z końcówki itp.)
+2. Ważne jest teraz aby podmienić plik Game.locres w folderze **Localization** na końcu ścieżki, na ten który przed chwilą przekonwertowaliśmy.\
+ Zachowaj jego oryginalną nazwę (usuwając .new z końcówki) i nie zmieniaj nic z folderami!
 3. Wyjdź do folderu Exports i obok folderu z nazwą gry, utwórz nowy folder o dowolnej nazwie
 4. Wrzuć tam folder z nazwą gry
 
