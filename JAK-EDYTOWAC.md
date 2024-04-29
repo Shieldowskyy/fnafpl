@@ -37,8 +37,8 @@ Jeżeli chesz tworzyć spolszczenie wspólnie z innymi, lepszym wyjściem może 
 To jednak wychodzi poza ramy poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
 
 # #4 Pakowanie plików
-Po ukończeniu spolszczenia należy spakować plik z powrotem do formatu .locres, a następnie do formatu .pak.
-Przygotuj folder roboczy, wrzycając do niego program UnrealLocres.exe, dostępny do pobrania z folderu [**Narzedzia**](Narzedzia)
+Po ukończeniu spolszczenia należy spakować plik z powrotem do formatu .locres, a następnie do formatu .pak.\
+Przygotuj folder roboczy, wrzucając do niego program UnrealLocres.exe, dostępny do pobrania z folderu [**Narzedzia**](Narzedzia)
 
 
 ### 4.1 Import do formatu .locres
