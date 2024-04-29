@@ -1,8 +1,7 @@
 # TA STRONA JEST AKTUALNIE W FAZIE PRZYGOTOWANIA!
 
 # FNaF-PL - Projekt lokalizacji gier FNAF na Unreal Engine
-
-
+![](https://dcbadge.vercel.app/api/shield/409795841453326366)
 
 Witam w nowym repozytorium projektu FNaF-PL! Znajdziesz tutaj wszystkie spolszczenia przygotowane przez GrupęDSH oraz społeczność!
 
