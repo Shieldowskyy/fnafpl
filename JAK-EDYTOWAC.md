@@ -38,8 +38,10 @@ To jednak wychodzi poza ramy poradnika i będziesz musiał/a sobie z tym poradzi
 
 # #4 Pakowanie plików
 Po ukończeniu spolszczenia należy spakować plik z powrotem do formatu .locres, a następnie do formatu .pak.
+Przygotuj folder roboczy, wrzycając do niego program UnrealLocres.exe, dostępny do pobrania z folderu [**Narzedzia**](Narzedzia)
 
-### #4.1 Import do formatu .locres
+
+### 4.1 Import do formatu .locres
 Do folderu roboczego wrzucamy:
 - Oryginalny plik .locres z plików gry
 - Plik spolszczenia **z końcówką .po**!
@@ -48,7 +50,18 @@ Nastepnie w PowerShell wykonujemy komendę:
 "./UnrealLocres import Game.locres Game.po" \
 (zakładając że nasz plik ma nazwę roboczą Game)\
 
-Program powinien teraz utworzyć nam plik **Game.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!
+Program powinien teraz utworzyć nam plik **Game.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!\
+
+### 4.2 Przygotowanie do pakowania
+1. Wchodzimy do folderu FModela w którym bazowo exportowaliśmy nasz plik .locres!
+2. Ważne jest teraz aby podmienić plik Game.locres w folderze **Localization** na końcu ścieżki, na ten który przed chwilą przekonwertowaliśmy, zachowując jego oryginalną nazwę (usuwając .new z końcówki itp.)
+3. Wyjdź do folderu Exports i obok folderu z nazwą gry, utwórz nowy folder o dowolnej nazwie
+4. Wrzuć tam folder z nazwą gry
+
+### 4.3 Pakowanie
+1. W drugim oknie otwórz folder **Narzedzia** z repozytorium, i wejdź do folderu UnrealPak
+2. Przeciągnij folder o dowolnej nazwie, na plik **"_UnrealPak-With-Compression.bat"** w folderze narzędzia
+3. Powinien na chwilę otworzyć się wiersz polecenia, a twoim oczom ukazać się gotowy plik w folderze FModela!
 
 # Obsługa Polskich Znaków
 FNAF SB oraz FNAF HW używają domyślnej czcionki z Unreal Engine która obsługuje Unicode, co oznacza że wspiera ona również polskie znaki!
