@@ -36,6 +36,19 @@ Przykładowym programem który ja użyłem był program **Poedit** dostępny za 
 Jeżeli chesz tworzyć spolszczenie wspólnie z innymi, lepszym wyjściem może się okazać użycie [Platformy Crowdin](https://crowdin.com/project/spolszczenie-fnaf-sb/pl).\
 To jednak wychodzi poza ramy poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
 
+# #4 Pakowanie plików
+Po ukończeniu spolszczenia należy spakować plik z powrotem do formatu .locres, a następnie do formatu .pak.
+
+### #4.1 Import do formatu .locres
+Do folderu roboczego wrzucamy:
+- Oryginalny plik .locres z plików gry
+- Plik spolszczenia **z końcówką .po**!
+
+Nastepnie w PowerShell wykonujemy komendę:
+"./UnrealLocres import Game.locres Game.po" \
+(zakładając że nasz plik ma nazwę roboczą Game)\
+
+Program powinien teraz utworzyć nam plik **Game.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!
 
 # Obsługa Polskich Znaków
 FNAF SB oraz FNAF HW używają domyślnej czcionki z Unreal Engine która obsługuje Unicode, co oznacza że wspiera ona również polskie znaki!
