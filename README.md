@@ -1,7 +1,6 @@
 # TA STRONA JEST AKTUALNIE W FAZIE PRZYGOTOWANIA!
 
 # FNaF-PL - Projekt lokalizacji gier FNAF na Unreal Engine
-![](https://dcbadge.vercel.app/api/shield/409795841453326366)
 
 Witam w nowym repozytorium projektu FNaF-PL! Znajdziesz tutaj wszystkie spolszczenia przygotowane przez GrupęDSH oraz społeczność!
 
@@ -16,3 +15,8 @@ __Tłumaczenie kompletne ale nieprzetestowane i może zawierać błędy__
 ### [Jak tworzyć/edytować spolszczenia dla gier na silniku Unreal Engine 4/5?](JAK-TWORZYC.md)
 Dokumentacja narzędzia UnrealLocres [TODO]
 
+# Kontakt
+Możesz uzyskać pomoc na naszym YouTubowym serwerze discord:
+![Discord Banner 2](https://discordapp.com/api/guilds/1022171140883484722/widget.png?style=banner2)
+Lub pisząc do mnie na PW:
+DC: @shieldziak
