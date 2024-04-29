@@ -29,7 +29,7 @@
 Program którego będziemy używać do tłumaczenia plików nosi nazwę PoEdit. Obsługuje on pliki **.po** oraz **.pot!** Ważne żeby wiedzieć co one oznaczają.
 
 **.pot** - plik z szablonem tłumaczenia, zawierający tylko oryginalny tekst w języku angielskim. Jego właśnie uzyskujemy!\
-**.po** - plik z szablonem ORAZ tłumaczeniem zawierający oryginalne dane oraz nasze zmienione ciągi tekstu. On przyda nam się na końcu!
+**.po** - plik z tłumaczniem zawierająćy nasze zmienione ciągi tekstu. Zawiera także szablon. On przyda nam się na końcu!
 
 Aby wyeksportować plik do formatu obsługiwanego przez program PoEdit, należy użyć dołączonego narzedzia UnrealLocres. Uruchamiany powershell i robimy tak:
 
@@ -38,16 +38,19 @@ Aby wyeksportować plik do formatu obsługiwanego przez program PoEdit, należy 
 
 2. Następnie narzędziem UnrealLocres konwertujemy plik z formatu .locres do formatu .pot co zrobimy używając komendy ```./UnrealLocres.exe export DLC.locres -f pot```
 
-3. W katalogu powinien się teraz znajdować plik DLC.pot który będzie można normalnie edytować używając programu Poedit!
+3. W katalogu powinien się teraz znajdować plik DLC.pot na podstawie którego stworzymy plik z tłumaczeniem o formacie .po
 
 # #3 Edycja plików :writing_hand:
-Aby edytować zawarte pliki źródłowe należy użyć **programu do edycji plików .pot**
-Przykładowym programem którego początkowo używaliśby był program **Poedit**. Jest on dostępny za darmo na tej stronie: https://poedit.net/
+Aby stworzyć tłumaczenie należy użyć jakiegoś programu, który ułatwi stworzenie pliku tłumaczenia **.po** na podstawie pliku szablonu **.pot**.
+Teoretycznie dałoby się zrobić to nawet używając notatnika, jednak to bardzo niewygodne i mało bezpieczne, oraz podatne na błędy użytkownika!
+
+Przykładowym programem którego początkowo używaliśmy był program **Poedit**. Jest on dostępny za darmo na tej stronie: https://poedit.net/
 <br />W prosty sposób otworzy on nam plik i pozwoli na jego łatwą edycję oraz zapobiegnie popełnieniu typowych błędów składniowych.
 **Nie ma potrzeby kupowania wersji Pro** ponieważ do tłumaczenia maszynowego wystarczy przeklejać ręcznie frazy do Tłumacza Google/Deepl.
 > [!TIP]
 > Jeżeli chesz tworzyć spolszczenie wspólnie z innymi, lepszym wyjściem może się okazać użycie [Platformy Crowdin](https://crowdin.com/project/spolszczenie-fnaf-sb/pl).\
-> To jednak wychodzi poza ramy poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
+> Ma wbudowane podpowiedzi i autokorektę tłumaczeń, oraz rozsądny darmowy limit ilości słów.\
+> Jego konfiguracja wychodzi poza ramy tego poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
 
 # #4 Pakowanie plików :package:
 Po ukończeniu spolszczenia należy przekonwertować plik z powrotem do formatu **.locres**, a następnie spakować do formatu **.pak**.
