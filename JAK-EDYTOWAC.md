@@ -66,10 +66,12 @@ Program powinien teraz utworzyć nam plik **Game.locres.new** który jest orygin
 3. Wyjdź do folderu Exports i obok folderu z nazwą gry, utwórz nowy folder o dowolnej nazwie
 4. Wrzuć tam folder z nazwą gry
 
-### 4.3 Pakowanie
+### 4.3 Pakowanie i testowanie
 1. W drugim oknie otwórz folder **Narzedzia** z repozytorium, i wejdź do folderu UnrealPak
 2. Przeciągnij folder o dowolnej nazwie, na plik **"_UnrealPak-With-Compression.bat"** w folderze narzędzia
-3. Powinien na chwilę otworzyć się wiersz polecenia, a twoim oczom ukazać się gotowy plik w folderze FModela!
+3. Powinien na chwilę otworzyć się wiersz polecenia, a twoim oczom ukazać się gotowy plik obok folderu Export.
+4. Zmień nazwę pliku .pak tak żeby na końcu znajdowało się **_P.pak**
+5. Przenieś to do folderu: Content -> Paks  w plikach gry i odpal grę :D
 
 # Obsługa Polskich Znaków
 FNAF SB oraz FNAF HW używają domyślnej czcionki z Unreal Engine która obsługuje Unicode, co oznacza że wspiera ona również polskie znaki!
