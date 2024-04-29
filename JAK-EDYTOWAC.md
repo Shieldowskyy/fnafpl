@@ -1,4 +1,4 @@
-# Jak edytować spolszczenie?
+# Jak edytować spolszczenie? :memo:
 Ten poradnik pokazuje kompletny proces tworzenia pliku spolszczenia, od eksportu pliku -> przez tłumaczenie -> po ponowny import do plików gry.\
 Starałem się napisać go jak najprościej, jednakże to jeden z pierwszych takich tekstów jakie przyszło mi napisać - więc miej to na uwadze.\
 Wszystkie błędy zgłaszaj w zakładce Issues lub do mnie na dc: @shieldziak
