@@ -4,7 +4,8 @@
 Witam w nowym repozytorium projektu FNaF-PL! Znajdziesz tutaj wszystkie spolszczenia przygotowane przez GrupęDSH oraz społeczność!
 
 ## Nasze projekty:
-[Spolszczenie FNAF SB (Oraz RUIN)[TODO]
+### [**Spolszczenie FNAF SB (Oraz RUIN)**](spolszczenia/FNAF%20Security%20Breach%20(ORAZ%20RUIN)#readme)
+### [**Spolszczenie FNAF: Help Wanted 2**](spolszczenia/FNAF%20Help%20Wanted%202#readme)
 
 # Spis treści
 
