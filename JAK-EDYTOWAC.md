@@ -11,6 +11,10 @@ Wszystkie błędy zgłaszaj w zakładce Issues lub do mnie na dc: @shieldziak
 [#4 Pakowanie plików](JAK-EDYTOWAC.md#4-pakowanie-plik%C3%B3w)
 
 # #1 Eksport stringów z plików gry :dvd:
+Aby móc edytować tekst w grze, należy wpierw wyeksportować go do formatu wspieranego przez narzędzia do edycji.\
+Gry na silniku Unreal Engine najczęściej używają formatu **.pak** lub **.ucas**. My potrzebujemy formatu **.locres** z którym możemy cokolwiek zrobić.\
+
+Oto jak go zdobyć:
 
 1. Pobieramy narzędzie Fmodel i wybieramy w nim ścieżkę do plików gry (do folderu z głównym plikiem .exe)
 
