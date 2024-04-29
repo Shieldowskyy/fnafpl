@@ -1,0 +1,40 @@
+# #1 Eksport stringów z plików gry.
+
+1. Pobieramy narzędzie Fmodel i wybieramy w nim ścieżkę do plików gry (do folderu z głównym plikiem .exe)
+
+![image](https://github.com/Shieldowskyy/spolszczenie-fnaf-sb/assets/32707076/27642dfb-7230-47c4-8d94-31c1f46945d1)
+
+2. Dodajemy klucz AES który odszyfruje pakiet z plikami gry. Najprościej znaleźć go na redditcie!
+
+![image](https://github.com/Shieldowskyy/spolszczenie-fnaf-sb/assets/32707076/d308401a-b7f7-4ee7-b533-f5421b0e58e1)
+
+3. Otwieramy pliki .pak i szukamy folderu Localization w plikach gry! Następnie wchodzimy do folderu z **"en"** w nazwie
+
+![image](https://github.com/Shieldowskyy/spolszczenie-fnaf-sb/assets/32707076/099c1c20-9116-4ec2-80b4-a871f697c92d)
+
+4. Eksportujemy plik DLC.locres klikając prawym i **Export Raw Data**
+
+![image](https://github.com/Shieldowskyy/spolszczenie-fnaf-sb/assets/32707076/f76b6c7b-6e8e-44b7-b1df-3d1ec890bbb3)
+
+5. Plik powinien znajdować się w katalogu w którym wypakowaliśmy FModela z **zachowaną strukturą plików która potem nam się przyda!**
+
+# Eksport plików do formatu .po
+Aby wyeksportować plik do formatu obsługiwanego przez program PoEdit, należy użyć dołączonego narzedzia UnrealLocres. Uruchamiany powershell i robimy tak:
+
+1. Przechodzimy do lokalizacji z plikami .locres oraz programem UnrealLocres\
+ a nastepnie klikamy **Shift + Prawy przycisk myszy** i wybieramy "Otwórz tutaj okno programu PowerShell"
+
+2. Następnie narzędziem UnrealLocres konwertujemy plik z formatu .locres do formatu .po co zrobimy używając komendy ```./UnrealLocres.exe export DLC.locres -f pot```
+
+3. W katalogu powinien się teraz znajdować plik DLC.po który będzie można normalnie edytować używając programu Poedit!
+
+# Edycja plików
+Aby edytować zawarte pliki źródłowe należy użyć **programu do edycji plików .po**
+Przykładowym programem który ja użyłem był program **Poedit** dostępny za darmo na tej stronie: https://poedit.net/
+<br />W prosty sposób otworzy on nam plik i pozwoli na jego łatwą edycję oraz zapobiegnie popełnieniu typowych błędów składniowych.
+**Nie ma potrzeby kupowania wersji Pro** ponieważ do tłumaczenia maszynowego wystarczy przeklejać ręcznie frazy do Tłumacza Google/Deepl.
+Jeżeli chesz tworzyć spolszczenie wspólnie z innymi, lepszym wyjściem może się okazać użycie [Platformy Crowdin](https://crowdin.com/project/spolszczenie-fnaf-sb/pl).\
+To jednak wychodzi poza ramy poradnika i będziesz musiał/a sobie z tym poradzić na własną rękę!
+
+# Obsługa Polskich Znaków
+FNAF SB oraz FNAF HW używają domyślnej czcionki z Unreal Engine która obsługuje Unicode, co oznacza że wspiera ona również polskie znaki!
