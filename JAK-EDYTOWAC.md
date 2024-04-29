@@ -31,6 +31,7 @@ Program którego będziemy używać do tłumaczenia plików nosi nazwę PoEdit. 
 **.pot** - plik z szablonem tłumaczenia, zawierający tylko oryginalny tekst w języku angielskim. Jego właśnie uzyskujemy!\
 **.po** - plik z tłumaczniem zawierająćy nasze zmienione ciągi tekstu. Zawiera także szablon. On przyda nam się na końcu!
 
+### 2.0 Eksport
 Aby wyeksportować plik do formatu obsługiwanego przez program PoEdit, należy użyć dołączonego narzedzia UnrealLocres. Uruchamiany powershell i robimy tak:
 
 1. Przechodzimy do lokalizacji z plikami .locres oraz programem UnrealLocres\
