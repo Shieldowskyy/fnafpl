@@ -13,6 +13,8 @@ __Tłumaczenie kompletne ale nieprzetestowane i może zawierać błędy__
 # Spis treści
 
 ### [Jak tworzyć/edytować spolszczenia dla gier na silniku Unreal Engine 4/5?](https://github.com/Shieldowskyy/fnafpl/wiki/Jak-tworzy%C4%87-spolszczenia-do-gier-na-Unreal-Engine-4-5%3F)
+__Kompletny poradnik opisujący proces tworzenia spolszczenia dla dowolnej gry na silniku Unreal Engine 4/5!__
+
 Dokumentacja narzędzia UnrealLocres [TODO]
 
 # Kontakt
