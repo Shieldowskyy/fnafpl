@@ -3,20 +3,26 @@ Ten poradnik pokazuje kompletny proces tworzenia pliku spolszczenia, od eksportu
 Starałem się napisać go jak najprościej, jednakże to jeden z pierwszych takich tekstów jakie przyszło mi napisać - więc miej to na uwadze.\
 Wszystkie błędy zgłaszaj w zakładce Issues lub do mnie na dc: @shieldziak
 
+> [!NOTE]
+> Na potrzeby tego poradnika, zakładamy że jest nam potrzebny plik **DLC.locres**! W przypadku innych gier, plik ten będzie miał nazwy **Game.locres** lub coś podobnego.\
+> W takim przypadku po prostu podmieniaj nazwy plików w komendach i podążaj dalej z poradnikiem.
 
 ## Spis treści:
 [#1 Eksport stringów z plików gry.](JAK-TWORZYC.md#1-eksport-string%C3%B3w-z-plik%C3%B3w-gry-dvd)\
-[#2 Eksport plików do formatu .po](JAK-TWORZYC.md#2-eksport-plik%C3%B3w-do-formatu-pot-outbox_tray)\
+[#2 Konwersja plików do formatu .po](JAK-TWORZYC.md#2-konwertowanie-plik%C3%B3w-do-formatu-pot-outbox_tray)\
 [#3 Edycja plików](JAK-TWORZYC.md#3-edycja-plik%C3%B3w-writing_hand)\
 [#4 Pakowanie plików](JAK-TWORZYC.md#4-pakowanie-plik%C3%B3w-package)
 
 # #1 Eksport stringów z plików gry :dvd:
 Aby móc edytować tekst w grze, należy wpierw wyeksportować go do formatu wspieranego przez narzędzia do edycji.\
-Gry na silniku Unreal Engine najczęściej używają formatu **.pak** lub **.ucas**. My potrzebujemy formatu **.locres** z którym możemy cokolwiek zrobić.\
+Gry na silniku **Unreal Engine** najczęściej używają formatu **.pak** lub **.ucas**. My potrzebujemy formatu **.locres** z którym możemy cokolwiek zrobić.
+
+> [!NOTE]
+> **.locres** - plik generowany przez **Unreal Engine** podczas podczas każdej aktualizacji gry. Jeżeli twórca gry wyda update zmieniający jakieś linie tekstu - twoje spolszczenie może przestać działać, lub działać inaczej!
 
 Oto jak go zdobyć:
 
-1. Pobieramy narzędzie Fmodel i wybieramy w nim ścieżkę do plików gry (do folderu z głównym plikiem .exe)
+1. Pobieramy narzędzie **FModel** i wybieramy w nim ścieżkę do plików gry (do folderu z głównym plikiem **.exe**)
 
 ![image](https://github.com/Shieldowskyy/spolszczenie-fnaf-sb/assets/32707076/27642dfb-7230-47c4-8d94-31c1f46945d1)
 
@@ -24,31 +30,38 @@ Oto jak go zdobyć:
 
 ![image](https://github.com/Shieldowskyy/spolszczenie-fnaf-sb/assets/32707076/d308401a-b7f7-4ee7-b533-f5421b0e58e1)
 
-3. Otwieramy pliki .pak i szukamy folderu Localization w plikach gry! Następnie wchodzimy do folderu z **"en"** w nazwie
+3. Otwieramy pliki **.pak** i szukamy folderu Localization w plikach gry! Następnie wchodzimy do folderu z **"en"** w nazwie
 
 ![image](https://github.com/Shieldowskyy/spolszczenie-fnaf-sb/assets/32707076/099c1c20-9116-4ec2-80b4-a871f697c92d)
 
-4. Eksportujemy plik DLC.locres klikając prawym i **Export Raw Data**
+4. Eksportujemy plik **DLC.locres** klikając prawym i **Export Raw Data**
 
 ![image](https://github.com/Shieldowskyy/spolszczenie-fnaf-sb/assets/32707076/f76b6c7b-6e8e-44b7-b1df-3d1ec890bbb3)
 
 5. Plik powinien znajdować się w katalogu w którym wypakowaliśmy FModela z **zachowaną strukturą plików która potem nam się przyda!**
 
-# #2 Eksport plików do formatu .pot :outbox_tray:
+# #2 Konwertowanie plików do formatu .pot :outbox_tray:
 Program którego będziemy używać do tłumaczenia plików nosi nazwę PoEdit. Obsługuje on pliki **.po** oraz **.pot!** Ważne żeby wiedzieć co one oznaczają.
 
-**.pot** - plik z szablonem tłumaczenia, zawierający tylko oryginalny tekst w języku angielskim. Jego właśnie uzyskujemy!\
-**.po** - plik z tłumaczniem zawierający nasze zmienione ciągi tekstu. Zawiera także szablon. On przyda nam się na końcu!
+> [!NOTE]
+> **.pot** - plik z szablonem tłumaczenia, zawierający tylko oryginalny tekst w języku angielskim. Jego właśnie uzyskujemy!\
+> **.po** - plik z tłumaczniem zawierający nasze zmienione ciągi tekstu. Zawiera także szablon. On przyda nam się na końcu!
 
-### 2.0 Eksport
-Aby wyeksportować plik do formatu obsługiwanego przez program PoEdit, należy użyć dołączonego narzedzia UnrealLocres. Uruchamiany powershell i robimy tak:
 
-1. Przechodzimy do lokalizacji z plikami .locres oraz programem UnrealLocres\
+### 2.0 Konwersja
+Aby przekonwertować plik do formatu obsługiwanego przez program **PoEdit**, należy użyć dołączonego narzedzia **UnrealLocres**. Oto jak to zrobić:
+
+**1.** Przechodzimy do lokalizacji z wyeksportowanymi plikami **.locres** oraz programem **UnrealLocres.exe**\
  a nastepnie klikamy **Shift + Prawy przycisk myszy** i wybieramy "Otwórz tutaj okno programu PowerShell"
 
-2. Następnie narzędziem UnrealLocres konwertujemy plik z formatu .locres do formatu .pot co zrobimy używając komendy ```./UnrealLocres.exe export DLC.locres -f pot```
+**2.** Następnie narzędziem **UnrealLocres** konwertujemy plik z formatu **.locres** do formatu **.pot** co zrobimy używając komendy ```./UnrealLocres.exe export DLC.locres -f pot```
 
-3. W katalogu powinien się teraz znajdować plik DLC.pot na podstawie którego stworzymy plik z tłumaczeniem o formacie .po
+**3.** W katalogu powinien się teraz znajdować plik **DLC.pot** na podstawie którego stworzymy plik z tłumaczeniem o formacie **.po**
+
+> [!WARNING]
+> Program UnrealLocres jest bardzo wybredny w kwestii argumentów komend. 
+> W tym kroku komenda **export** wymaga jedynie podania ścieżki pliku **.locres**. ale potem będzie to też ścieżka do pliku **.po** aby scalić go z naszym **.locres** a więc dwa argumenty.\
+> Jeżeli w tym momencie program wywali ci błąd ogólny - to sprawdź jeszcze raz czy na pewno poprawnie wpisałeś komendę, oraz czy plik nie jest uszkodzony.
 
 # #3 Edycja plików :writing_hand:
 Aby stworzyć tłumaczenie należy użyć jakiegoś programu, który ułatwi stworzenie pliku tłumaczenia **.po** na podstawie pliku szablonu **.pot**.
@@ -76,18 +89,18 @@ Przygotuj folder roboczy, wrzucając do niego program **UnrealLocres.exe**, dost
 
 ### 4.1 Import do formatu .locres :inbox_tray:
 Do folderu roboczego wrzucamy:
-- Oryginalny plik .locres z plików gry
-- Plik spolszczenia **z końcówką .po**!
+- Oryginalny plik **.locres** z plików gry
+- Plik spolszczenia **z końcówką .po** który ma twoje zmiany!
 
 Nastepnie w PowerShell wykonujemy komendę:\
-```./UnrealLocres import Game.locres Game.po --format po``` \
-(zakładając że nasz plik ma nazwę roboczą Game)
+```./UnrealLocres import DLC.locres DLC.po --format po``` \
+(zakładając że nasz plik ma nazwę roboczą DLC)
 
-Program powinien teraz utworzyć nam plik **Game.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!
+Program powinien teraz utworzyć nam plik **DLC.locres.new** który jest oryginalnym plikiem, wzbogaconym o nasze zmiany!
 
 ### 4.2 Przygotowanie do pakowania :ballot_box:
 1. Wchodzimy do folderu FModela w którym bazowo exportowaliśmy nasz plik .locres!
-2. Ważne jest teraz aby podmienić plik Game.locres w folderze **Localization** na końcu ścieżki, na ten który przed chwilą przekonwertowaliśmy.\
+2. Ważne jest teraz aby podmienić plik DLC.locres w folderze **Localization** na końcu ścieżki, na ten który przed chwilą przekonwertowaliśmy.\
  Zachowaj jego oryginalną nazwę (usuwając .new z końcówki) i nie zmieniaj nic z folderami!
 3. Wyjdź do folderu Exports i obok folderu z nazwą gry, utwórz nowy folder o dowolnej nazwie
 4. Wrzuć tam folder z nazwą gry
