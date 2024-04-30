@@ -1,5 +1,3 @@
-# TA STRONA JEST AKTUALNIE W FAZIE PRZYGOTOWANIA!
-
 # FNaF-PL - Projekt lokalizacji gier FNAF na Unreal Engine
 
 Witam w nowym repozytorium projektu FNaF-PL! Znajdziesz tutaj wszystkie spolszczenia przygotowane przez GrupęDSH oraz społeczność!
