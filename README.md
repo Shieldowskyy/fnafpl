@@ -16,5 +16,7 @@ __Kompletny poradnik opisujący proces tworzenia spolszczenia dla dowolnej gry n
 # Kontakt
 Możesz uzyskać pomoc na naszym serwerze discord:\
 ![Discord Banner 2](https://discordapp.com/api/guilds/1022171140883484722/widget.png?style=banner3)\
+### Dołącz klikając [tutaj](https://shieldziak.yt/piwnica) 
+
 Lub pisząc do mnie na PW:\
 DC: @shieldziak
