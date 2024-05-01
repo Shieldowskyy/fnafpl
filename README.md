@@ -1,6 +1,6 @@
 # FNaF-PL - Projekt lokalizacji gier FNAF na Unreal Engine
 
-Witam w nowym repozytorium projektu FNaF-PL! Znajdziesz tutaj wszystkie spolszczenia przygotowane przez GrupęDSH oraz społeczność!
+Witam w nowym repozytorium projektu FNaF-PL! Znajdziesz tutaj wszystkie spolszczenia przygotowane przez GrupęDSH oraz naszą społeczność!
 
 ## Nasze projekty:
 Aktualnie jedynym ukończonym projektem jest tłumaczenie **FNAFA: SB (ORAZ RUIN)** - Inne projekty są testowane i aktualizowane.
