@@ -1,13 +1,16 @@
 # FNaF-PL - Projekt lokalizacji gier FNAF na Unreal Engine
 
-Witam w nowym repozytorium projektu FNaF-PL!\
-Znajdziesz tutaj wszystkie spolszczenia przygotowane przez GrupęDSH oraz naszą społeczność!
+### Witam w nowym repozytorium projektów FNaF-PL!
 
-## Nasze projekty:
-Aktualnie jedynym ukończonym projektem jest tłumaczenie **FNAFA: SB (ORAZ RUIN)** - Inne projekty są testowane i aktualizowane.
-### [**Spolszczenie FNAF SB (Oraz RUIN)**](spolszczenia/FNAF%20Security%20Breach%20(ORAZ%20RUIN)#readme)
+# Spolszczenia
+## [**Spolszczenie FNAF SB (Oraz RUIN)**](spolszczenia/FNAF%20Security%20Breach%20(ORAZ%20RUIN)#readme)
+#### [Kliknij aby pobrać dla FNAF SB (ORAZ RUIN)! ](https://github.com/Shieldowskyy/fnafpl/releases/tag/fnaf9-stable1)
+
+
 ![spolszczenielogo_small](https://github.com/Shieldowskyy/fnafpl/assets/32707076/a7766aba-5349-4c11-94f8-68ccf602683a)
-### [**Spolszczenie FNAF: Help Wanted 2**](spolszczenia/FNAF%20Help%20Wanted%202#readme)
+## [**Spolszczenie FNAF: Help Wanted 2**](spolszczenia/FNAF%20Help%20Wanted%202#readme)
+#### [Kliknij aby pobrać dla FNAF: HELP WANTED 2!](https://github.com/Shieldowskyy/fnafpl/releases/tag/Thumper-beta1)
+
 __Tłumaczenie kompletne ale nieprzetestowane i może zawierać błędy__ 
 # Materiały
 
