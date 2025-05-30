@@ -4,11 +4,10 @@
 
 # Spolszczenia
 ## [**Spolszczenie FNAF SB (Oraz RUIN)**](spolszczenia/FNAF%20Security%20Breach%20(ORAZ%20RUIN)#readme)
-#### [Kliknij aby pobrać dla FNAF SB (ORAZ RUIN)! ](https://github.com/Shieldowskyy/fnafpl/releases/tag/fnaf9-stable1)
-
-
 ![spolszczenielogo_small](https://github.com/Shieldowskyy/fnafpl/assets/32707076/a7766aba-5349-4c11-94f8-68ccf602683a)
+#### [Kliknij aby pobrać dla FNAF SB (ORAZ RUIN)! ](https://github.com/Shieldowskyy/fnafpl/releases/tag/fnaf9-stable1)
 ## [**Spolszczenie FNAF: Help Wanted 2**](spolszczenia/FNAF%20Help%20Wanted%202#readme)
+![Spolszczenie_FNAF_HW2](https://github.com/user-attachments/assets/b7b8c315-01ed-4389-acd1-b3731a843656)
 #### [Kliknij aby pobrać dla FNAF: HELP WANTED 2!](https://github.com/Shieldowskyy/fnafpl/releases/tag/Thumper-beta1)
 
 __Tłumaczenie kompletne ale nieprzetestowane i może zawierać błędy__ 
