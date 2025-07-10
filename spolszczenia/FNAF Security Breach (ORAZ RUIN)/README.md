@@ -7,6 +7,7 @@ Jeżeli posiadasz grę na steamie:
 2. Wybierz opcję "Przeglądaj pliki lokalne"
 3. Wejdź do folderów: **fnaf9 -> Content -> Paks**
 4. Wrzuć tam plik .pak najnowszego wydania dostępny [w zakładce releases!](https://github.com/Shieldowskyy/fnafpl/releases/tag/fnaf9-stable1)
+(WAŻNE! PLIK **.PAK** MUSI MIEĆ **NIE**ZMIENIONĄ KOŃCÓWKĘ PLIKU! NAZWA MUSI WYGLĄDAĆ TAK: **fnaf9-pl-PL_P.pak** A NIE TAK **fnaf9-pl-PL_P(1).pak** PONIEWAŻ SILNIK GRY TRAKTUJE PLIKI Z **_P** NA KOŃCU JAKO PATCH!!!)
 5. Uruchom grę!
 
 ### Zgłaszanie błędów oraz pomoc
