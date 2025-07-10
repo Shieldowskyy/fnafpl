@@ -7,6 +7,7 @@ Jeżeli posiadasz grę na steamie:
 2. Wybierz opcję "Przeglądaj pliki lokalne"
 3. Wejdź do folderów: **Thumper -> Content -> Paks**
 4. Wrzuć tam plik .pak najnowszego wydania dostępny [Zakładce Releases](https://github.com/Shieldowskyy/fnafpl/releases/tag/Thumper-beta1)
+(WAŻNE! PLIK **.PAK** MUSI MIEĆ **NIE**ZMIENIONĄ KOŃCÓWKĘ PLIKU! NAZWA MUSI WYGLĄDAĆ TAK: **Thumper-pl-PL_P.pak** A NIE TAK **Thumper-pl-PL_P(1).pak** PONIEWAŻ SILNIK GRY TRAKTUJE PLIKI Z **_P** NA KOŃCU JAKO PATCH!!!)
 5. Uruchom grę!
 
 ### Zgłaszanie błędów oraz pomoc
