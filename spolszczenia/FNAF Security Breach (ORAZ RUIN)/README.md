@@ -1,14 +1,20 @@
 # Spolszczenie do FNAF: SB (ORAZ RUIN)
 [![Crowdin](https://badges.crowdin.net/spolszczenie-fnaf-sb/localized.svg)](https://crowdin.com/project/spolszczenie-fnaf-sb)
-## Instalacja spolszczenia:
+## Instalacja spolszczenia
 
-Jeżeli posiadasz grę na steamie:
-1. Kliknij grę prawyn przyciskiem myszy
-2. Wybierz opcję "Przeglądaj pliki lokalne"
-3. Wejdź do folderów: **fnaf9 -> Content -> Paks**
-4. Wrzuć tam plik .pak najnowszego wydania dostępny [w zakładce releases!](https://github.com/Shieldowskyy/fnafpl/releases/tag/fnaf9-stable1)
-(WAŻNE! PLIK **.PAK** MUSI MIEĆ **NIE**ZMIENIONĄ KOŃCÓWKĘ PLIKU! NAZWA MUSI WYGLĄDAĆ TAK: **fnaf9-pl-PL_P.pak** A NIE TAK **fnaf9-pl-PL_P(1).pak** PONIEWAŻ SILNIK GRY TRAKTUJE PLIKI Z **_P** NA KOŃCU JAKO PATCH!!!)
-5. Uruchom grę!
+Jeśli masz grę na Steamie:
+
+1. Kliknij grę prawym przyciskiem myszy.
+2. Wybierz opcję **„Przeglądaj pliki lokalne”**.
+3. Przejdź do folderów:
+   `fnaf9 -> Content -> Paks`
+4. Skopiuj tam plik `.pak` najnowszego wydania dostępny poniżej.
+- **WAŻNE:** Plik `.pak` **musi mieć niezmienioną końcówkę nazwy!**  
+- Nazwa pliku powinna wyglądać dokładnie tak: `fnaf9-pl-PL_P.pak`  
+- Nie tak: `fnaf9-pl-PL_P(1).pak`  
+- Silnik gry traktuje pliki z końcówką **_P** jako patch i dzięki temu zastępuje język angielski - polskim!
+
+5. Uruchom grę i ciesz się rozgrywką we Freddy FNaF po polsku 🇵🇱!
 
 ### Zgłaszanie błędów oraz pomoc
 Jeżeli masz problem z instalacją spolszczenia, najpierw spróbuj wykonać kroki ponownie!\
