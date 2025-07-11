@@ -1,5 +1,7 @@
 # Spolszczenie do FNAF: SB (ORAZ RUIN)
 [![Crowdin](https://badges.crowdin.net/spolszczenie-fnaf-sb/localized.svg)](https://crowdin.com/project/spolszczenie-fnaf-sb)
+
+[![spolszczenielogo_small](https://github.com/Shieldowskyy/fnafpl/assets/32707076/a7766aba-5349-4c11-94f8-68ccf602683a)](https://github.com/Shieldowskyy/fnafpl/releases/tag/fnaf9-stable1)
 ## Instalacja spolszczenia
 
 Jeśli masz grę na Steamie:
