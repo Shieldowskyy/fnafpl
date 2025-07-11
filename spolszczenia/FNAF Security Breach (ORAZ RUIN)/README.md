@@ -10,7 +10,7 @@ Jeśli masz grę na Steamie:
 2. Wybierz opcję **„Przeglądaj pliki lokalne”**.
 3. Przejdź do folderów:
    `fnaf9 -> Content -> Paks`
-4. Skopiuj tam plik `.pak` najnowszego wydania dostępny poniżej.
+4. Skopiuj tam plik `.pak` najnowszego wydania dostępny w [zakładce Releases](https://github.com/Shieldowskyy/fnafpl/releases/tag/fnaf9-stable1).
 - **WAŻNE:** Plik `.pak` **musi mieć niezmienioną końcówkę nazwy!**  
 - Nazwa pliku powinna wyglądać dokładnie tak: `fnaf9-pl-PL_P.pak`  
 - Nie tak: `fnaf9-pl-PL_P(1).pak`  
